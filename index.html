@@ -1,0 +1,1294 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+
+	<!--- basic page needs
+   ================================================== -->
+	<meta charset="utf-8">
+	<title>Er Haider Khan</title>
+	<meta name="description" content="Er Haider Khan">
+	<meta name="keywords"
+		content="HTML, CSS, JavaScript, haiderkhan, Erhaiderkhan, Er Haider Khan, Baramulla, kashmir, Gulmarg, SkiGulmarg ">
+	<meta name="author" content="Er haider khan">
+
+	<!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/vendor.css">
+
+	<!-- script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
+	<!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.png">
+
+	<style>
+		div.gallery {
+			margin: 5px;
+			border: 1px solid #ccc;
+			float: left;
+			width: 180px;
+			align-items: center;
+		}
+
+		div.gallery:hover {
+			border: 1px solid #777;
+		}
+
+		div.gallery img {
+			width: 100%;
+			height: auto;
+			align-items: center;
+
+		}
+
+		div.desc {
+			padding: 15px;
+			text-align: center;
+		}
+
+		.logo {
+			width: 20%;
+			height: 20%;
+			padding: 5%;
+
+		}
+
+		.down1 {
+			max-width: 50%;
+			max-height: 50%;
+			display: block;
+			margin-top: -30%;
+			margin-left: 10%;
+			display: flex;
+			width: -50%;
+		}
+
+
+
+		/* Button used to open the chat form - fixed at the bottom of the page */
+		.open-button {
+			background-color: #555;
+			color: white;
+			padding: 16px 20px;
+			border-radius: 20%;
+			cursor: pointer;
+			opacity: 0.8;
+			position: fixed;
+			bottom: 60px;
+			right: 28px;
+			width: 80px;
+		}
+
+		/* The popup chat - hidden by default */
+		.chat-popup {
+			display: none;
+			position: fixed;
+			bottom: 0;
+			right: 15px;
+			border: 3px solid #f1f1f1;
+			z-index: 9;
+		}
+
+		/* Add styles to the form container */
+		.form-container {
+			max-width: 300px;
+			padding: 10px;
+			background-color: white;
+		}
+
+		/* Full-width textarea */
+		.form-container textarea {
+			width: 100%;
+			padding: 15px;
+			margin: 5px 0 22px 0;
+			border: none;
+			background: #f1f1f1;
+			resize: none;
+			min-height: 200px;
+		}
+
+		/* When the textarea gets focus, do something */
+		.form-container textarea:focus {
+			background-color: #ddd;
+			outline: none;
+		}
+
+		/* Set a style for the submit/send button */
+		.form-container .btn {
+			background-color: #04AA6D;
+			color: white;
+			padding: 16px 20px;
+			border: none;
+			cursor: pointer;
+			width: 100%;
+			margin-bottom: 10px;
+			opacity: 0.8;
+		}
+
+		/* Add a red background color to the cancel button */
+		.form-container .cancel {
+			background-color: red;
+		}
+
+		/* Add some hover effects to buttons */
+		.form-container .btn:hover,
+		.open-button:hover {
+			opacity: 1;
+		}
+	</style>
+
+</head>
+
+<body id="top">
+
+	<!-- header 
+   ================================================== -->
+	<header>
+		<div class="row">
+
+			<div class="top-bar">
+				<a class="menu-toggle" href="#"><span>Menu</span></a>
+
+				<div class="logo">
+					<a href="index.html">HAIDER</a>
+				</div>
+
+				<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll" href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll" href="#about" title="">About</a></li>
+						<li><a class="smoothscroll" href="#resume" title="">Resume</a></li>
+						<li><a class="smoothscroll" href="#portfolio" title="">Portfolio</a></li>
+						<li><a class="smoothscroll" href="#services" title="">Services</a></li>
+						<li><a class="smoothscroll" href="#contact" title="">Contact</a></li>
+
+					</ul>
+				</nav>
+			</div> <!-- /top-bar -->
+
+		</div> <!-- /row -->
+	</header> <!-- /header -->
+
+	<!-- intro section
+   ================================================== -->
+	<section id="intro">
+
+		<div class="intro-overlay"></div>
+
+		<div class="intro-content">
+			<div class="row">
+
+				<div class="col-twelve">
+
+					<h5>Hello Dear Me.</h5>
+					<h1>I Am </h1>
+					<h1>Er Haider Khan</h1>
+
+					<p class="intro-position">
+						<span>Front-end Developer</span>
+						<span>Web-Designer</span>
+						<span>Enterprenuer</span>
+						<span>Editor</span>
+						<span> Actor</span>
+						<span> Author</span>
+					</p>
+
+					<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+
+				</div>
+
+			</div>
+			<div class="down1">
+				S <br>
+				C <br>
+				R <br>
+				O <br>
+				L <br>
+				L<br>
+				<br><br>
+				D <br>
+				O <br>
+				W <br>
+				N <br>
+			</div>
+		</div> <!-- /intro-content -->
+
+		<ul class="intro-social">
+			<li><a href="https://www.facebook.com/haiderkhan4362"><i class="fa fa-facebook"></i></a></li>
+			<li><a href="https://mobile.twitter.com/haiderkhan0x"><i class="fa fa-twitter"></i></a></li>
+			<li><a href="https://www.instagram.com/haiderkhan.0x/"><i class="fa fa-instagram"></i></a></li>
+		</ul> <!-- /intro-social -->
+
+	</section> <!-- /intro -->
+
+
+	<!-- about section
+   ================================================== -->
+	<section id="about">
+
+		<div class="row section-intro">
+			<div class="col-twelve">
+
+				<h5>About</h5>
+				<h1>Let me introduce myself.</h1>
+
+				<div class="intro-info">
+
+					<img src="images/profile-pic.jpg" alt="Profile Picture">
+
+					<p class="lead"><span style="font-size: 100%;"><strong> Baramullain </strong><br>
+							Haider worked as an <strong> Actor</strong> earlier
+							Acting was his passion he did it by heart.
+							He was used to do<strong> hacking</strong> also he has been interesting in ethical hacking,
+							cyber security .
+							He went to abroad for B. Tech in<strong> computer science engineering </strong>
+							Presently works as Ethical Hacker,<strong> Web-Designer</strong>, Acting, Artist,
+							videography, Editor, Anchor, Penetration testor</p>
+				</div>
+
+			</div>
+		</div> <!-- /section-intro -->
+
+		<div class="row about-content">
+
+			<div class="col-six tab-full">
+
+				<h3>Profile</h3>
+				<p>Successful professional with raining experience seeking position in nonproﬁt organization leveraging
+					fundraising and program development skills. Recognized for ability to develop strong relationships
+					and plan strategically websites. </p>
+
+				<ul class="info-list">
+					<li>
+						<strong>Fullname:</strong>
+						<span>Mohammad Shafi khan</span>
+					</li>
+					<li>
+						<strong>Birth Date:</strong>
+						<span>june 6, 2000</span>
+					</li>
+					<li>
+						<strong>Job:</strong>
+						<span>Self, Frontend Developer, Web-Designer, Author</span>
+					</li>
+					<li>
+						<strong>Website:</strong>
+						<span>https://er-haider-khan.business.site/</span>
+					</li>
+					<li>
+						<strong>Email:</strong>
+						<span>shafimohammad@gecg28.ac.in</span>
+					</li>
+
+				</ul> <!-- /info-list -->
+
+			</div>
+
+			<div class="col-six tab-full">
+
+				<h3>Skills</h3>
+				<p>Here are my Skills I always use in a true way.</p>
+
+				<ul class="skill-bars">
+					<li>
+						<div class="progress percent90"><span>90%</span></div>
+						<strong>HTML5</strong>
+					</li>
+					<li>
+						<div class="progress percent85"><span>85%</span></div>
+						<strong>CSS</strong>
+					</li>
+					<li>
+						<div class="progress percent20"><span>20%</span></div>
+						<strong>JS</strong>
+					</li>
+					<li>
+						<div class="progress percent10"><span>10%</span></div>
+						<strong>PHP</strong>
+					</li>
+					<li>
+
+						<div class="progress percent20"><span>20%</span></div>
+						<strong>C</strong>
+					</li>
+					<li>
+
+						<div class="progress percent20"><span>20%</span></div>
+						<strong>Python</strong>
+
+					</li>
+					<li>
+
+						<div class="progress percent100"><span>100%</span></div>
+						<strong>Photo Editing</strong>
+					</li>
+					<li>
+
+						<div class="progress percent90"><span>90%</span></div>
+						<strong>Video Editing</strong>
+					</li>
+				</ul> <!-- /skill-bars -->
+
+			</div>
+
+		</div>
+
+		<div class="row button-section">
+			<div class="col-twelve">
+				<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Contact Me</a>
+				<a href="#" title="Download CV" class="button button-primary">Download CV</a>
+			</div>
+		</div>
+
+	</section> <!-- /process-->
+
+
+	<!-- resume Section
+   ================================================== -->
+	<section id="resume" class="grey-section">
+
+		<div class="row section-intro">
+			<div class="col-twelve">
+
+				<h5>Resume</h5>
+				<h1>More about my Experience .</h1>
+
+				<p class="lead">
+
+				</p>
+
+			</div>
+		</div> <!-- /section-intro-->
+
+		<div class="row resume-timeline">
+
+			<div class="col-twelve resume-header">
+
+				<h2>Work Experience</h2>
+
+			</div> <!-- /resume-header -->
+
+			<div class="col-twelve">
+
+				<div class="timeline-wrap">
+
+					<div class="timeline-block">
+
+						<div class="timeline-ico">
+							<i class="fa fa-graduation-cap"></i>
+						</div>
+
+						<div class="timeline-header">
+							<h3>Web-Designer</h3>
+							<p>july-2020 - Present</p>
+						</div>
+
+						<div class="timeline-content">
+							<h4>HTML & CSS</h4>
+							<p>I am a highly motivated and experienced self team of high achievers dedicated to creating
+								a mutually respectful work environment. At anjumtech,i think that diversity and
+								equitable employment opportunities for me are vital to my success as a worldwide
+								corporation. I strive to attract, develop, and retain the most brilliant individuals
+								from a broad applicant pool across the world. I am one of the fastest-growing firm in
+								"Gulmarg Kashmir," and there are several chances for advancement with me.</p>
+						</div>
+
+					</div> <!-- /timeline-block -->
+
+					<div class="timeline-block">
+
+						<div class="timeline-ico">
+							<i class="fa fa-graduation-cap"></i>
+						</div>
+
+						<div class="timeline-header">
+							<h3>Front-end Developer</h3>
+							<p>July 2021- present</p>
+						</div>
+
+						<div class="timeline-content">
+							<h4>Front-end Web-Developer</h4>
+							<p>Develop new user-facing features
+								Build reusable code and libraries for future use
+								Ensure the technical feasibility of UI/UX designs
+								Optimize application for maximum speed and scalability
+								Assure that all user input is validated before submitting to back-end
+								Collaborate with other team members and stakeholders.</p>
+						</div>
+
+					</div> <!-- /timeline-block -->
+
+					<div class="timeline-block">
+
+						<div class="timeline-ico">
+							<i class="fa fa-graduation-cap"></i>
+						</div>
+
+						<div class="timeline-header">
+							<h3>Poetry</h3>
+							<p>May 2013 - Present</p>
+						</div>
+
+						<div class="timeline-content">
+							<h4>English Poetry</h4>
+							<p>Writing has always been my passion, but still, it is never so easy to succeed in what you
+								desire or crave for. My life has been a kind of roller coaster to accomplish whatsoever
+								I have done till date. My zeal for writing and the peace that came along with it. Of
+								course, nothing would have been possible if Almighty the Creator, had not been merciful
+								enough, whenever i feel like give up. Living in a society with high critiques, my
+								parents, bashir Ahmed khan and maimona begum have been a backbone for me. They have
+								stood by my side through every thick and thin, even when I thought I didn't need their
+								help. I can't resist my pen to mention my best buddies, my siblings whom I consider a
+								blessing from My Creator; especially, Immad and farhan. Besides, I could have never
+								stood here without the support of a few of my companions who have been my strength
+								whenever I was living at my lowest.including sofi irfan, suhail bhat, ibrahim, tanveer
+								,azmat jahan noorani. It's great said that, 'Every expert was once a beginner.' and I
+								feel myself blessed enough to start as a beginner at Wisdonm Institute of learning
+								Thindima Kreeri. They have taught me lessons more than academics, that keep me going. In
+								general, I want to extend my heartfelt note of thanks to everyone who prayed for me and
+								has either supported me or been against me. Yes, a special thanks to those who always
+								had tried to bring me down because I got to know my height only when I was pulled down..
+							</p>
+						</div>
+
+					</div> <!-- /timeline-block -->
+
+				</div> <!-- /timeline-wrap -->
+
+			</div> <!-- /col-twelve -->
+
+		</div> <!-- /resume-timeline -->
+
+		<div class="row resume-timeline">
+
+			<div class="col-twelve resume-header">
+
+				<h2>Education</h2>
+
+			</div> <!-- /resume-header -->
+
+			<div class="col-twelve">
+
+				<div class="timeline-wrap">
+
+					<div class="timeline-block">
+
+						<div class="timeline-ico">
+							<i class="fa fa-briefcase"></i>
+						</div>
+
+						<div class="timeline-header">
+							<h3>12th</h3>
+							<p>2018</p>
+						</div>
+
+						<div class="timeline-content">
+							<h4>Government Higher Sec. School Kreeri</h4>
+							<p>I Got qualified 11th and 12th classes from this school teachers including mubashir sahib
+								and irfan sahib taught me the deepness of books .</p>
+						</div>
+
+					</div> <!-- /timeline-block -->
+
+					<div class="timeline-block">
+
+						<div class="timeline-ico">
+							<i class="fa fa-briefcase"></i>
+						</div>
+
+						<div class="timeline-header">
+							<h3>Computer Engineering (B.E)</h3>
+							<p>July 2014 - June 2015</p>
+						</div>
+
+						<div class="timeline-content">
+							<h4>Gujarat Technological University</h4>
+							<p>july 2019 - july 2023. i compleated my BE in computer engineering and so called i am am
+								proud to be a kashmiri web developer</p>
+						</div>
+
+					</div> <!-- /timeline-block -->
+
+					<div class="timeline-block">
+
+						<div class="timeline-ico">
+							<i class="fa fa-briefcase"></i>
+						</div>
+
+						<div class="timeline-header">
+							<h3>Diploma</h3>
+							<p>2019-2020</p>
+						</div>
+
+						<div class="timeline-content">
+							<h4>Computer And Its Applications </h4>
+							<p>As coading has been my passion i started to learn from basics consiquently i joined
+								info-tech acedemy to learn
+								Web Designing,
+								VFX and Animation,
+								Tally,
+								Diploma in IT,
+								Data Entry Operator,
+								Hardware and Networking,
+								Progamming Language Courses..</p>
+						</div>
+
+					</div> <!-- /timeline-block -->
+
+				</div> <!-- /timeline-wrap -->
+
+			</div> <!-- /col-twelve -->
+
+		</div> <!-- /resume-timeline -->
+
+	</section> <!-- /features -->
+
+
+	<!-- Portfolio Section
+   ================================================== -->
+	<section id="portfolio">
+
+		<div class="row section-intro">
+			<div class="col-twelve">
+
+				<h5>Portfolio</h5>
+				<h1>Check Out Some of My Images.</h1>
+
+				<p class="lead"> Photography and videography is my hobby i always used to capture nature videos and
+					photos because i am from kashmir and the natural beauty of kashmir is no where in world as i expect
+					CPP Certified freelance photographer, skilled in portrait photography, landscapes, and weddings.
+					Shot and edited two weddings with commendations from both clients and multiple referrals. Accepted
+					to juried exhibition at Historic Pullman Visitor Center. .</p>
+
+			</div>
+		</div> <!-- /section-intro-->
+
+		<div class="row portfolio-content">
+
+			<div class="col-twelve">
+
+
+				<!-- gallery -->
+				<!-- ============================================ -->
+
+
+
+				<div class="gallery">
+					<a target="_blank" href="images/profile-pic.jpg" download="">
+						<img src="images/profile-pic.jpg" alt="Cinque Terre" width="600" height="400">
+					</a>
+				</div>
+
+				<div class="gallery">
+					<a target="_blank" href="images/portfolio/modals/liberty.jpg" download="">
+						<img src="images/portfolio/modals/liberty.jpg" alt="Forest" width="600" height="400">
+					</a>
+				</div>
+
+				<div class="gallery">
+					<a target="_blank" href="images/h1.jpg" download="">
+						<img src="images/h1.jpg" alt="Northern Lights" width="600" height="400">
+					</a>
+				</div>
+
+				<div class="gallery">
+					<a target="_blank" href="images/h2.jpg" download="">
+						<img src="images/h2.jpg" alt="Mountains" width="600" height="400">
+					</a>
+				</div>
+				<div class="gallery">
+					<a target="_blank" href="images/h3.jpg" download="">
+						<img src="images/h3.jpg" alt="Mountains" width="600" height="400">
+					</a>
+				</div>
+				<div class="gallery">
+					<a target="_blank" href="images/h4.jpg" download="">
+						<img src="images/h4.jpg" alt="Mountains" width="600" height="400">
+					</a>
+				</div>
+
+				<div class="gallery">
+					<a target="_blank" href="images/h5.jpg" download="">
+						<img src="images/h5.jpg" alt="Mountains" width="600" height="400">
+					</a>
+				</div>
+				<div class="gallery">
+					<a target="_blank" href="images/h6.jpg" download="">
+						<img src="images/h6.jpg" alt="Mountains" width="600" height="400">
+					</a>
+				</div>
+				<div class="gallery">
+					<a target="_blank" href="images/h7.jpg" download="">
+						<img src="images/h7.jpg" alt="Mountains" width="600" height="400">
+					</a>
+				</div>
+				<div class="gallery">
+					<a target="_blank" href="images/h8.jpg" download="">
+						<img src="images/h8.jpg" alt="Mountains" width="600" height="400">
+					</a>
+				</div>
+				<div class="gallery">
+					<a target="_blank" href="images/h9.jpg" download="">
+						<img src="images/h9.jpg" alt="Mountains" width="600" height="400">
+					</a>
+				</div>
+				<div class="gallery">
+					<a target="_blank" href="images/h10.jpg" download="">
+						<img src="images/h10.jpg" alt="Mountains" width="600" height="400">
+					</a>
+				</div>
+				<div class="gallery">
+					<a target="_blank" href="images/h11.jpg" download="">
+						<img src="images/h11.jpg" alt="Mountains" width="600" height="400">
+					</a>
+				</div>
+				<div class="gallery">
+					<a target="_blank" href="images/h12.jpg" download="">
+						<img src="images/h12.jpg" alt="Mountains" width="600" height="400">
+					</a>
+				</div>
+				<div class="gallery">
+					<a target="_blank" href="images/h13.jpg" download="">
+						<img src="images/h13.jpg" alt="Mountains" width="600" height="400">
+					</a>
+				</div>
+				<div class="gallery">
+					<a target="_blank" href="images/h14.jpg" download="">
+						<img src="images/h14.jpg" alt="Mountains" width="600" height="400">
+					</a>
+				</div>
+				<div class="gallery">
+					<a target="_blank" href="images/h15.jpg" download="">
+						<img src="images/h15.jpg" alt="Mountains" width="600" height="400">
+					</a>
+				</div>
+				<div class="gallery">
+					<a target="_blank" href="images/h16.jpg" download="">
+						<img src="images/h16.jpg" alt="Mountains" width="600" height="400">
+					</a>
+				</div>
+				<div class="gallery">
+					<a target="_blank" href="images/h17.jpg" download="">
+						<img src="images/h17.jpg" alt="Mountains" width="600" height="400">
+					</a>
+				</div>
+				<div class="gallery">
+					<a target="_blank" href="images/h18.jpg" download="">
+						<img src="images/h18.jpg" alt="Mountains" width="600" height="400">
+					</a>
+				</div>
+				<div class="gallery">
+					<a target="_blank" href="images/h19.jpg" download="">
+						<img src="images/h19.jpg" alt="Mountains" width="600" height="400">
+					</a>
+				</div>
+				<div class="gallery">
+					<a target="_blank" href="images/h20.jpg" download="">
+						<img src="images/h20.jpg" alt="Mountains" width="600" height="400">
+					</a>
+				</div>
+
+				<div class="gallery">
+					<a target="_blank" href="images/h21.jpg" download="">
+						<img src="images/h21.jpg" alt="Mountains" width="600" height="400">
+					</a>
+				</div>
+				<div class="gallery">
+					<a target="_blank" href="images/h22.jpg" download="">
+						<img src="images/h22.jpg" alt="Mountains" width="600" height="400">
+					</a>
+				</div>
+				<div class="gallery">
+					<a target="_blank" href="images/h23.jpg" download="">
+						<img src="images/h23.jpg" alt="Mountains" width="600" height="400">
+					</a>
+				</div>
+				<div class="gallery">
+					<a target="_blank" href="images/h24.jpg" download="">
+						<img src="images/h24.jpg" alt="Mountains" width="600" height="400">
+					</a>
+				</div>
+				<div class="gallery">
+					<a target="_blank" href="images/h25.jpg" download="">
+						<img src="images/h25.jpg" alt="Mountains" width="600" height="400">
+					</a>
+				</div>
+				<div class="gallery">
+					<a target="_blank" href="images/h26.jpg" download="">
+						<img src="images/h26.jpg" alt="Mountains" width="600" height="400">
+					</a>
+				</div>
+				<div class="gallery">
+					<a target="_blank" href="images/h27.jpg" download="">
+						<img src="images/h27.jpg" alt="Mountains" width="600" height="400">
+					</a>
+				</div>
+				<div class="gallery">
+					<a target="_blank" href="images/h28.jpg" download="">
+						<img src="images/h28.jpg" alt="Mountains" width="600" height="400">
+					</a>
+				</div>
+				<div class="gallery">
+					<a target="_blank" href="images/h29.jpg" download="">
+						<img src="images/h29.jpg" alt="Mountains" width="600" height="400">
+					</a>
+				</div>
+				<div class="gallery">
+					<a target="_blank" href="images/h30.jpg" download="">
+						<img src="images/h30.jpg" alt="Mountains" width="600" height="400">
+					</a>
+				</div>
+
+				<!-- ==================================================== -->
+				<!-- gallery ends -->
+
+
+
+
+				<!-- CTA Section
+   ================================================== -->
+				<section id="cta" class="grey-section">
+
+					<div class="row cta-content">
+
+						<div class="col-twelve section-ads">
+
+							<h2 class="h01"><a href="https://www.w3schools.com/">Learn Free</a></h2>
+
+							<p class="lead">
+								Looking for an awesome and reliable web-designing? Try <a
+									href="https://www.w3schools.com/"><span>w3schools</span></a>.
+								Get <span>Free</span> when you sign up <span>Here</span>.
+								<!-- Simply type	the promocode in the box labeled “Promo Code” when placing your order. -->
+							</p>
+
+							<div class="action">
+								<a class="button button-primary large" href="https://www.w3schools.com/">Sign Up Now</a>
+							</div>
+
+						</div>
+
+					</div> <!-- /cta-content -->
+
+				</section> <!-- /cta -->
+
+
+				<!-- services Section
+   ================================================== -->
+				<section id="services">
+
+					<div class="overlay"></div>
+
+					<div class="row section-intro">
+						<div class="col-twelve">
+
+							<h5>Services</h5>
+							<h1>What Can I Do For You?</h1>
+
+							<p class="lead">Strive not to be a success, but rather to be of value
+								Life Is For Service
+								Feel Free TO Contact Me
+							</p>
+
+						</div>
+					</div> <!-- /section-intro -->
+
+					<div class="row services-content">
+
+						<div id="owl-slider" class="owl-carousel services-list">
+
+							<div class="service">
+
+								<span class="icon"><i class="icon-earth"></i></span>
+
+								<div class="service-content">
+
+									<h3>Web-design</h3>
+
+									<p class="desc">Web design refers to the design of websites that are displayed on
+										the internet. It usually refers to the user experience aspects of website
+										development rather than software development.
+									</p>
+
+								</div>
+
+							</div> <!-- /service -->
+
+							<div class="service">
+
+								<span class="icon"><i class="icon-window"></i></span>
+
+								<div class="service-content">
+
+									<h3>Web Development</h3>
+
+									<p class="desc">Web development refers in general to the tasks associated with
+										developing websites for hosting via intranet or internet. The web development
+										process includes web design, web content development, client-side/server-side
+										scripting and network security configuration, among other tasks.
+									</p>
+
+								</div>
+
+							</div> <!-- /service -->
+
+							<div class="service">
+
+								<span class="icon"><i class="icon-paint-brush"></i></span>
+
+								<div class="service-content">
+
+									<h3>Videography</h3>
+
+									<p class="desc">the practice or art of recording images with a video camera.
+										cenematic videos and profissional photos i caputre during day night
+									</p>
+
+								</div>
+
+							</div> <!-- /service -->
+
+
+							<div class="service">
+
+								<span class="icon"><i class="icon-image"></i></span>
+
+								<div class="service-content">
+
+									<h3>Graphics Design</h3>
+
+									<p class="desc">the art or skill of combining text and pictures in advertisements,
+										magazines, or books.
+										گرافک ڈیزائن
+										That comes under CSS which i do perfectly </p>
+
+								</div>
+
+							</div> <!-- /service -->
+
+							<div class="service">
+
+								<span class="icon"><i class="icon-chat"></i></span>
+
+								<div class="service-content">
+
+									<h3>Poetry</h3>
+
+									<p class="desc">
+										I Mohammad shafi khan hails from kreeri area of Baramulla Kashmir.
+
+										Being a Engineer, i find solace in the ocean of words.
+
+										For my writing is the reflection of experiences i had encountered during
+										my Course of life; which i later turned into assigned verses.
+
+										In my writing, i put the unique flavour of words, that touches the chords of
+										heart, as i write with deep contemplation and observation. For my writing is
+										that ingredient that nouriis my soul and adds more spice to my life.
+
+										� The very childhood i has been writing.
+
+										For my writing is what feels like taking a gasp of fresh air.
+
+										myself a author hold a notion, that words used appropriately and divinely have
+										the power to heal the unhealed ones. So far, i have written many poems My dad,
+										not everybody is born to be a bride, Kuch unke alfaaz aur hamari aawaz have been
+										publiid so far.
+
+									</p>
+
+								</div>
+
+							</div> <!-- /service -->
+
+						</div> <!-- /services-list -->
+
+					</div> <!-- /services-content -->
+
+				</section> <!-- /services -->
+
+
+				<!-- stats Section
+   ================================================== -->
+				<section id="stats" class="count-up">
+
+					<div class="row">
+						<div class="col-twelve">
+
+							<div class="block-1-6 block-s-1-3 block-tab-1-2 block-mob-full stats-list">
+
+								<div class="bgrid stat">
+
+									<div class="icon-part">
+										<i class="icon-pencil-ruler"></i>
+									</div>
+
+									<h3 class="stat-count">
+										500
+									</h3>
+
+									<h5 class="stat-title">
+										Projects Completed
+									</h5>
+
+								</div> <!-- /stat -->
+
+								<div class="bgrid stat">
+
+									<div class="icon-part">
+										<i class="icon-users"></i>
+									</div>
+
+									<h3 class="stat-count">
+										100
+									</h3>
+
+									<h5 class="stat-title">
+										Happy Clients
+									</h5>
+
+								</div> <!-- /stat -->
+
+								<div class="bgrid stat">
+
+									<div class="icon-part">
+										<i class="icon-badge"></i>
+									</div>
+
+									<h3 class="stat-count">
+										50
+									</h3>
+
+									<h5 class="stat-title">
+										Awards Received
+									</h5>
+
+								</div> <!-- /stat -->
+
+								<div class="bgrid stat">
+
+									<div class="icon-part">
+										<i class="icon-light-bulb"></i>
+									</div>
+
+									<h3 class="stat-count">
+										220
+									</h3>
+
+									<h5 class="stat-title">
+										Crazy Ideas
+									</h5>
+
+								</div> <!-- /stat -->
+
+								<div class="bgrid stat">
+
+									<div class="icon-part">
+										<i class="icon-cup"></i>
+									</div>
+
+									<h3 class="stat-count">
+										2500
+									</h3>
+
+									<h5 class="stat-title">
+										Coffee Cups
+									</h5>
+
+								</div> <!-- /stat -->
+
+								<div class="bgrid stat">
+
+									<div class="icon-part">
+										<i class="icon-clock"></i>
+									</div>
+
+									<h3 class="stat-count">
+										6000
+									</h3>
+
+									<h5 class="stat-title">
+										Hours
+									</h5>
+
+								</div> <!-- /stat -->
+
+							</div> <!-- /stats-list -->
+
+						</div> <!-- /twelve -->
+					</div> <!-- /row -->
+
+				</section> <!-- /stats -->
+
+
+
+
+
+
+				<button class="open-button" onclick="openForm()">Chat</button>
+
+				<div class="chat-popup" id="myForm">
+<form action="ChatApp/login.php" class="form-container">
+						<h1>Chat</h1>
+
+						
+
+						<button type="submit" name="submit" class="btn">Lets Chat</button>
+						<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+					</form>
+				</div>
+
+
+
+
+
+				<!-- contact
+   ================================================== -->
+				<section id="contact">
+
+					<div class="row section-intro">
+						<div class="col-twelve">
+
+							<h5>Contact</h5>
+							<h1>What You Expect From Me.</h1>
+
+							<p class="lead">
+								Successful people are always looking for opportunities to help others
+								Feel free to contact me , you can message me on whatsapp otherwise give a call on my
+								number given below
+
+							</p>
+
+						</div>
+					</div> <!-- /section-intro -->
+
+					<div class="row contact-form">
+
+						<div class="col-twelve">
+
+							<!-- form -->
+
+
+
+
+
+
+
+
+
+							<center>
+								<span style='font-size:30px;'>&#128222;</span>
+								<span style='font-size:30px;'>&#128222;</span>
+								<h1>Feel Free To Contact
+								</h1>
+								<h1>cxe chuk badi khass mean khater </h1>
+								<form action="insert.php" method="post">
+
+
+									<span style='font-size:80px;'>&#10036;</span>
+									<span style='font-size:80px;'>&#10036;</span>
+									<span style='font-size:80px;'>&#10036;</span>
+									<span style='font-size:80px;'>&#10036;</span>
+									<span style='font-size:80px;'>&#10036;</span>
+									<span style='font-size:80px;'>&#10036;</span>
+									<span style='font-size:80px;'>&#10036;</span>
+									<span style='font-size:80px;'>&#10036;</span>
+									<span style='font-size:80px;'>&#10036;</span>
+									<span style='font-size:80px;'>&#10036;</span>
+
+									<br>
+									<p>
+										<label for="firstName">First Name: آپ کا پہلا نام کیا ہے</label>
+										<input type="text" name="first_name" id="firstName">
+									</p>
+
+
+
+
+
+									<p>
+										<label for="lastName">Last Name: آپ کا آخری نام کیا ہے</label>
+										<input type="text" name="last_name" id="lastName">
+									</p>
+
+
+
+
+
+									<p>
+										<label for="Gender">Gender: آپ کی جنس کیا ہے</label>
+										<input type="text" name="gender" id="Gender">
+									</p>
+
+
+
+
+
+									<p>
+										<label for="Address">Address: آپ کہاں سے ہیں</label>
+										<input type="text" name="address" id="Address">
+									</p>
+
+
+
+
+
+									<p>
+										<label for="emailAddress">Email Address: آپ کا ای میل پتہ کیا ہے؟</label>
+										<input type="text" name="email" id="emailAddress">
+									</p>
+
+									<p>
+										<label for="password">password: </label>
+										<input type="text" name="password" id="password">
+									</p>
+
+									<input type="submit" name="submit" value="Send">
+								</form>
+							</center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+							<!-- Form End -->
+
+							<!-- contact-warning -->
+							<div id="message-warning">
+							</div>
+							<!-- contact-success -->
+							<div id="message-success">
+								<i class="fa fa-check"></i>Your message was sent, thank you!<br>
+							</div>
+
+						</div> <!-- /col-twelve -->
+
+					</div> <!-- /contact-form -->
+
+					<div class="row contact-info">
+
+						<div class="col-four tab-full">
+
+							<div class="icon">
+								<i class="icon-pin"></i>
+							</div>
+
+							<h5>Where to find me</h5>
+
+							<p>
+								Gulmarg Kashmir<br>
+								Mountain View,<br>
+
+							</p>
+
+						</div>
+
+						<div class="col-four tab-full collapse">
+
+							<div class="icon">
+								<i class="icon-mail"></i>
+							</div>
+
+							<h5>Email Me At</h5>
+
+							<p>Shafimohammad@gecg28.ac.in<br>
+								https://er-haider-khan.business.site/
+							</p>
+
+						</div>
+
+						<div class="col-four tab-full">
+
+							<div class="icon">
+								<i class="icon-phone"></i>
+							</div>
+
+							<h5>Call Me At</h5>
+
+							<p>Phone: (+91) 7051809421<br>
+								Mobile: (+91) 7622809421<br>
+
+							</p>
+
+						</div>
+
+					</div> <!-- /contact-info -->
+
+				</section> <!-- /contact -->
+
+
+				<!-- footer
+   ================================================== -->
+
+				<footer>
+					<div class="row">
+
+						<div class="col-six tab-full pull-right social">
+
+							<ul class="footer-social">
+								<li><a href="www.facebook.com/haiderkhan4362/"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="www.twitter.com/haiderkhan.0x/"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="www.instagram.com/haiderkhan.0x/"><i class="fa fa-instagram"></i></a></li>
+							</ul>
+
+						</div>
+
+						<div class="col-six tab-full">
+							<div class="copyright">
+								<span>© Copyright Er.haider khan 2022.</span>
+								<span>Design by Mohammad Shafi Khan</a></span>
+							</div>
+						</div>
+
+						<div id="go-top">
+							<a class="smoothscroll" title="Back to Top" href="#top"><i
+									class="fa fa-long-arrow-up"></i></a>
+						</div>
+
+					</div> <!-- /row -->
+				</footer>
+
+				<div id="preloader">
+					<div id="loader"></div>
+				</div>
+
+				<!-- Java Script
+   ================================================== -->
+				<script src="js/jquery-2.1.3.min.js"></script>
+				<script src="js/plugins.js"></script>
+				<script src="js/main.js"></script>
+				<script>
+					function openForm() {
+						document.getElementById("myForm").style.display = "block";
+					}
+
+					function closeForm() {
+						document.getElementById("myForm").style.display = "none";
+					}
+				</script>
+
+</body>
+
+</html>
